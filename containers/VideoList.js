@@ -16,25 +16,25 @@ class VideoList extends Component {
 
 
   render() {
-  	const { status, videos } = this.props;
-  	const videosMarkup = videos.map((video, i) => {
-  		return (
-  			<li key={i}>
-  				<Link to={`/videos/${video.id}`}>
+    const { status, videos } = this.props;
+    const videosMarkup = videos.valueSeq().map((video, i) => {
+      return (
+        <li key={i}>
+          <Link to={`/videos/${video.id}`}>
             {video.id}. {video.name}
           </Link>
-  				
-  			</li>
-  		)
-  	});
-  	const loadingText = status.loading ? 'true' : 'false';
+          
+        </li>
+      )
+    });
+    const loadingText = status.loading ? 'true' : 'false';
     return (
       <div>
-	      <h1>VideoList</h1>
-	      <h2>Loading: {loadingText}</h2>
-	      <ul>
-	      	{videosMarkup}
-	      </ul>
+        <h1>VideoList</h1>
+        <h2>Loading: {loadingText}</h2>
+        <ul>
+          {videosMarkup}
+        </ul>
       </div>
     )
   }

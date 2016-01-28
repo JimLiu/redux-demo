@@ -1,7 +1,7 @@
 {
-  "name": "redux-counter-example",
-  "version": "0.0.0",
-  "description": "Redux counter example",
+  "name": "redux-demo",
+  "version": "0.1.0",
+  "description": "Redux Demo",
   "scripts": {
     "start": "node server.js",
     "test": "NODE_ENV=test mocha --recursive --compilers js:babel-core/register --require ./test/setup.js",
@@ -16,22 +16,12 @@
     "url": "https://github.com/rackt/redux/issues"
   },
   "homepage": "http://rackt.github.io/redux",
-  "dependencies": {
-    "lodash": "^4.0.0",
-    "react": "^0.14.6",
-    "react-dom": "^0.14.6",
-    "react-redux": "^4.0.6",
-    "react-router": "2.0.0-rc5",
-    "react-router-redux": "^2.1.0",
-    "redux": "^3.0.6",
-    "redux-logger": "^2.4.0",
-    "redux-thunk": "^1.0.3",
-    "superagent": "^1.7.2"
-  },
+  "dependencies": {},
   "devDependencies": {
     "babel-core": "^5.6.18",
     "babel-loader": "^5.1.4",
     "babel-plugin-react-transform": "^1.1.0",
+    "concurrently": "^0.1.1",
     "expect": "^1.6.0",
     "express": "^4.13.3",
     "history": "^1.17.0",
@@ -40,18 +30,23 @@
     "lodash": "^4.0.1",
     "mocha": "^2.2.5",
     "node-libs-browser": "^0.5.2",
+    "react": "^0.14.6",
     "react-addons-test-utils": "^0.14.0",
-    "react-router": "^2.0.0-rc5",
+    "react-dom": "^0.14.6",
+    "react-redux": "^4.0.6",
+    "react-router": "^1.0.3",
     "react-transform-hmr": "^1.0.0",
-    "redux-router": "^1.0.0-beta7",
-    "request": "^2.69.0",
-    "reselect": "^2.0.2",
-    "webpack": "^1.9.11",
-    "webpack-dev-middleware": "^1.2.0",
-    "webpack-hot-middleware": "^2.2.0",
-    "concurrently": "^0.1.1",
+    "redux": "^3.0.6",
     "redux-devtools": "^3.0.0",
     "redux-devtools-dock-monitor": "^1.0.1",
-    "redux-devtools-log-monitor": "^1.0.1"
+    "redux-devtools-log-monitor": "^1.0.1",
+    "redux-logger": "^2.4.0",
+    "redux-router": "^1.0.0-beta7",
+    "redux-thunk": "^1.0.3",
+    "reselect": "^2.0.2",
+    "superagent": "^1.7.2",
+    "webpack": "^1.9.11",
+    "webpack-dev-middleware": "^1.2.0",
+    "webpack-hot-middleware": "^2.2.0"
   }
 }

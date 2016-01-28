@@ -6,8 +6,7 @@ const statusStateSelector = (state) => state.status;
 
 
 export const videosSelector = createSelector(
-  videosStateSelector, statusStateSelector,
-  (videosState, statusState) => {
+  videosStateSelector, statusStateSelector, (videosState, statusState) => {
     return {
       videos: videosState,
       status: statusState.toJS()

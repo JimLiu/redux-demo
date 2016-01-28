@@ -7,10 +7,9 @@ export function load() {
 
   return (dispatch, getState) => {
 
-    var url = '/api',
-        qs = {};
+    var url = '/api';
     dispatch({
-      	type: ActionTypes.VIDEOS_LOADING
+      type: ActionTypes.VIDEOS_LOADING
     });
 
     request
@@ -31,7 +30,5 @@ export function load() {
             videos: res.body.videos
           });
       }});
-
-
   };
 }

@@ -7,12 +7,12 @@ import { videoSelector } from '../selectors/video';
 
 class VideoDetail extends Component {
   render() {
-  	const { video, user } = this.props;
+    const { video, user } = this.props;
     return (
       
       <div>
-      	<h1>Video - {video.name}</h1>
-      	<h2>made by {user.name}</h2>
+        <h1>Video - {video ? video.name : 'Null'}</h1>
+        <h2>made by {user ? user.name : 'Null'}</h2>
       </div>
     )
   }

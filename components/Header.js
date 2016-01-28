@@ -14,12 +14,14 @@ export default class Header extends Component {
               <span className="icon-bar"></span>
               <span className="icon-bar"></span>
             </button>
-            <a className="navbar-brand" href="#">Project name</a>
+            <Link to={`/`} className="navbar-brand">
+              Redux Demo
+            </Link>
           </div>
           <div id="navbar" className="collapse navbar-collapse">
             <ul className="nav navbar-nav">
               <li className="active">
-                <Link to={`/home`}>
+                <Link to={`/`}>
                   Home
                 </Link>
               </li>

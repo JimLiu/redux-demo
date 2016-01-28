@@ -8,16 +8,15 @@ import createReducer from '../lib/createReducer';
 
 const initialState = Immutable.Map();
 
-
 export default createReducer(initialState, {
 
-  	[ActionTypes.VIDEOS_LOAD_SUCCESS](state, action) {
-  		const { users } = action;
+  [ActionTypes.VIDEOS_LOAD_SUCCESS](state, action) {
+    const { users } = action;
 
-  		return state.withMutations(map => {
-	  		_.forEach(users, (user) => {
-	  			map.set(user.id, new UserRecord(user))
-	  		})
-	  	});
-  	},
+    return state.withMutations(map => {
+      _.forEach(users, (user) => {
+        map.set(user.id, new UserRecord(user))
+      })
+    });
+  },
 });

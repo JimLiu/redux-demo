@@ -5,10 +5,10 @@ import users from './users';
 import status from './status';
 
 const rootReducer = combineReducers({
-	router,
-	videos,
-	users,
-	status
+  router,
+  videos,
+  users,
+  status
 });
 
 export default rootReducer;

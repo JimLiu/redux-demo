@@ -7,8 +7,8 @@ import VideoList from './containers/VideoList'
 import VideoDetail from './containers/VideoDetail'
 
 export default (
-    <Route path="/" component={App}>
-      <Route path="/home"
+    <Route component={App}>
+      <Route path="/"
              component={Home} />
       <Route path="/about"
              component={About} />

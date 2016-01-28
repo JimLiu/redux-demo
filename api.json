@@ -1,58 +1,58 @@
 {
-	"users": [
-		{
-			"id": 1,
-			"name": "user 1"
-		},
-		{
-			"id": 2,
-			"name": "user 2"
-		},
-		{
-			"id": 3,
-			"name": "user 3"
-		}
-	],
-	"videos": [
-		{
-			"id": 1,
-			"name": "Video 1",
-			"userId": 1
-		},
-		{
-			"id": 2,
-			"name": "Video 2",
-			"userId": 1
-		},
-		{
-			"id": 3,
-			"name": "Video 3",
-			"userId": 2
-		},
-		{
-			"id": 4,
-			"name": "Video 4",
-			"userId": 3
-		},
-		{
-			"id": 5,
-			"name": "Video 5",
-			"userId": 1
-		},
-		{
-			"id": 6,
-			"name": "Video 6",
-			"userId": 3
-		},
-		{
-			"id": 7,
-			"name": "Video 7",
-			"userId": 2
-		},
-		{
-			"id": 8,
-			"name": "Video 8",
-			"userId": 2
-		}
-	]
+    "users": [
+        {
+            "id": 1,
+            "name": "user 1"
+        },
+        {
+            "id": 2,
+            "name": "user 2"
+        },
+        {
+            "id": 3,
+            "name": "user 3"
+        }
+    ],
+    "videos": [
+        {
+            "id": 1,
+            "name": "Video 1",
+            "userId": 1
+        },
+        {
+            "id": 2,
+            "name": "Video 2",
+            "userId": 1
+        },
+        {
+            "id": 3,
+            "name": "Video 3",
+            "userId": 2
+        },
+        {
+            "id": 4,
+            "name": "Video 4",
+            "userId": 3
+        },
+        {
+            "id": 5,
+            "name": "Video 5",
+            "userId": 1
+        },
+        {
+            "id": 6,
+            "name": "Video 6",
+            "userId": 3
+        },
+        {
+            "id": 7,
+            "name": "Video 7",
+            "userId": 2
+        },
+        {
+            "id": 8,
+            "name": "Video 8",
+            "userId": 2
+        }
+    ]
 }
