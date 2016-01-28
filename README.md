@@ -3,7 +3,7 @@ Redux Demo
 This is a demo to render the video list with React, Redux and webpack.
 
 ## Features
-* Uses [Redux](redux.js.org)
+* Uses [Redux](http://redux.js.org/)
 * Based on [React](https://facebook.github.io/react/)
 * Build with [webpack] (https://webpack.github.io/)
 
