@@ -1,24 +1,30 @@
-# Redux Demo
-Show how to use react + redux + react-router + immutable to build an app.
+Redux Demo
+========================
+This is a demo to render the video list with React, Redux and webpack.
 
+## Features
+* Uses [Redux](http://redux.js.org/)
+* Based on [React](https://facebook.github.io/react/)
+* Build with [webpack](https://webpack.github.io/)
+* Store with [Immutable.js](https://facebook.github.io/immutable-js/)
 
-## SETUP
-
-### Prerequisites for developing Kitematic
+### Prerequisites for developing
 You will need to install: 
 - [Node.js](https://nodejs.org/) v4.2+ 
 
-### Getting Started
+## Usage
 
-- `npm install`
+```
+git clone git@github.com/JimLiu/redux-demo.git
+cd redux-demo
+npm install
+npm start
 
-To run the app in development:
+```
+Go to [http://localhost:3000/](http://localhost:3000/)
 
-- `npm start`
+## Troubleshooting
+You can use powershell to run the command. But when you use same window to command for another project, you may got erorro.
+To fix this, you can open a new window for new project.
+>>>>>>> origin/master
 
-
-## References
-
-- React https://facebook.github.io/react/
-- Redux http://redux.js.org/
-- Immutable.js https://facebook.github.io/immutable-js/
