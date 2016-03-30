@@ -9,13 +9,13 @@ This is a demo to render the video list with React, Redux and webpack.
 * Store with [Immutable.js](https://facebook.github.io/immutable-js/)
 
 ### Prerequisites for developing
-You will need to install: 
-- [Node.js](https://nodejs.org/) v4.2+ 
+You will need to install:
+- [Node.js](https://nodejs.org/) v4.2+
 
 ## Usage
 
 ```
-git clone git@github.com/JimLiu/redux-demo.git
+git clone git@github.com:JimLiu/redux-demo.git
 cd redux-demo
 npm install
 npm start
@@ -27,4 +27,3 @@ Go to [http://localhost:3000/](http://localhost:3000/)
 You can use powershell to run the command. But when you use same window to command for another project, you may got erorro.
 To fix this, you can open a new window for new project.
 >>>>>>> origin/master
-
